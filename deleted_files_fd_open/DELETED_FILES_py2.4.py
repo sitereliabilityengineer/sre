@@ -45,6 +45,7 @@ lsof_list = [ elem.split() for elem in lsof_res.strip().split('\n') ]
 for a in range(len(lsof_list)):
         lsof_list[a][6] = float(lsof_list[a][6])
 
+# We sort the list by column [6] (filesize). We get the value of [6], bu passing the method getKey.
 sorted_list = sorted(lsof_list, key=getKey, reverse=True)
 
 # we obtain the index of the list
