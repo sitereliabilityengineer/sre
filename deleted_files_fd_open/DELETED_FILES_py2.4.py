@@ -69,13 +69,13 @@ def getdelfiles():
 		print ('\n')
 		idx += 1
 
-
+# Start printing
 print ('\n')
 print_bold()
 print (''List of deleted files, that still haves the file descriptor open, ordered by File Size !!! \n')
 print_reset()
 
-#
+# Executing method, that display all the information: pid, fd, filesize, and also the FD location
 getdelfiles()
 
 print_reset()
