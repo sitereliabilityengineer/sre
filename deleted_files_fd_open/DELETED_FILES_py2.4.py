@@ -59,7 +59,7 @@ def getdelfiles():
 
 		comm, pid, fd, sizebytes = sorted_list[idx][0],  sorted_list[idx][1],  sorted_list[idx][3], float(sorted_list[idx][6])
 		sizemb, filen = bytesMb(sizebytes), sorted_list[idx][9]
-		fd_id = sorted_list[idx][3].rstrip('w')
+		fd_id = sorted_list[idx][3].rstrip('w').rstrip('r')
 
 		print_red()
 		print ("Command: %s, pid: %s, fd: %s, File Size: %s, File_name: %s" % (comm, pid, fd, sizemb, filen))
