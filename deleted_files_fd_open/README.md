@@ -9,8 +9,8 @@ With this, you will see where is located the descriptor of the file, to truncate
 
 # How to avoid the problem?
 In the first step, always truncate the file and then you can remove it.
-:> file (truncate file)
-rm file (delete file)
+- :> file (truncate file)
+- rm file (delete file)
 
 
 
