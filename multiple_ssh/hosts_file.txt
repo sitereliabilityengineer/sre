@@ -1,0 +1,9 @@
+[weblogic]
+srv001vx
+srv003vx
+srv004vx
+[/weblogic]
+[jboss]
+srv508vx
+srv509vx
+[/jboss]
