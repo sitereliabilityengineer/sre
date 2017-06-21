@@ -6,7 +6,8 @@
     In the second an alias for the privatekey
     In the third line, you put the mail where is going to be sent the .p12 file.
 
-You wil also need to configure some vars: 
+You wil also need to configure some vars:
+
     autop12_dir is the directory where you are going to upload the .zip files. 
     smtp_host is the host of the smtp server, 
     smtp_port with the smtp port. 
