@@ -5,7 +5,9 @@ At this moment, the script only works with unauthenticated smtp´s. In the futur
 ## Steps:
 
 1) You need to create a .zip with a private key .key file into the zip. 
+
 2) .crt file with the certificate  
+
 3) A params.txt file with 3 lines:  
     In the first Line you have to put the password of the pem file with the private key.  
     In the second Line you have to put the password of the privatekey and p12.  
