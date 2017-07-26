@@ -5,7 +5,7 @@ At this moment, the script only works with unauthenticated smtp´s. In the futur
 ## Steps:
 
 1) You need to create a .zip with a private key .key file into the zip. 
-2) .crt file with the certificate
+2) .crt file with the certificate  
 3) A params.txt file with 3 lines:  
     In the first Line you have to put the password of the pem file with the private key.  
     In the second Line you have to put the password of the privatekey and p12.  
@@ -17,7 +17,7 @@ At this moment, the script only works with unauthenticated smtp´s. In the futur
     alias  
     example@email.com  
 
-You wil also need to configure some vars:
+## You wil also need to configure some vars inside the .py File:
 
     autop12_dir is the directory where you are going to upload the .zip files. 
     smtp_host is the host of the smtp server, 
