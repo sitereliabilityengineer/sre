@@ -11,6 +11,11 @@ At this moment, the script only works with unauthenticated smtp´s. In the futur
     In the second Line you have to put the password of the privatekey and p12.  
     In the third Line, an alias for the privatekey.  
     In the fourth Line, you have to put the mail where is going to be sent the .p12 file.  
+    Example:  
+    PemPassword  
+    p12_and_privatekey_password  
+    alias  
+    example@email.com  
 
 You wil also need to configure some vars:
 
