@@ -1,1 +1,1 @@
-import vmstat
+from perf import Vmstat
