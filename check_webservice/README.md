@@ -1,4 +1,4 @@
-I usually need yo check webservices. I check the http code and the time it takes to give me back the result of the soap query. It works only with ssl.
+I usually need to check webservices. I check the http code and the time it takes to give me back the result of the soap query. It works only with ssl.
 
 To execute the code:
 
